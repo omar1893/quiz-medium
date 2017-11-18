@@ -8,7 +8,6 @@ export const store = new Vuex.Store({
         results: { correct_answers: 0, incorrect_answers: 0 },
         questions: [],
     },
-    getters: {},
     mutations: {
         translateData: function (state, questions) {
             var array = []
